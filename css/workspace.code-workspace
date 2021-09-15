@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "frontend-mentor-project-1",
+			"path": ".."
+		},
+		{
+			"path": "../../react/react-fullstack-course/01basics"
+		}
+	],
+	"settings": {}
+}
