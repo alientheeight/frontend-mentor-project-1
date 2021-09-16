@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e0e8ff;
+}
+
+.container::before {
+  content: '';
+  display: block;
+  height: 50vh;
+  background: url("../img/pattern-background-desktop.svg");
+  background-size: cover;
+  background-position: bottom;
+  z-index: 2;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 325px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 10px 35px -1.3em #7280a7;
+          box-shadow: 0px 10px 35px -1.3em #7280a7;
+  overflow: hidden;
+}
+
+.card header img {
+  width: 100%;
+}
+
+.card h1 {
+  margin-top: 20px;
+  padding: 20px 5px;
+  text-align: center;
+  color: #1f2f56;
+}
+
+.card p {
+  padding: 20px 30px;
+  color: #7280a7;
+  text-align: center;
+}
+
+.plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 20px;
+  margin: 10px 10px;
+  background-color: #f5f7ff;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */
